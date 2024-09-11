@@ -6,9 +6,9 @@ public static int maks(int[] a) {
     }
     for (int i = 0; i < a.length - 1; i++) {
         if (a[i] > a[i + 1]) {
-            int temp = a[i];
+            int mid = a[i];
             a[i] = a[i + 1];
-            a[i + 1] = temp;
+            a[i + 1] = mid;
         }
     }
     return a[a.length - 1];
@@ -33,9 +33,9 @@ public static int ombyttinger(int[]a) {
     int ombytte = 0;
     for (int i = 0; i < a.length - 1; i++) {
         if (a[i] > a[i + 1]) {
-            int temp = a[i];
+            int mid = a[i];
             a[i] = a[i + 1];
-            a[i + 1] = temp;
+            a[i + 1] = mid;
             ombytte++;               //nåværende element større enn neste, utføres bytte
         }
     }
