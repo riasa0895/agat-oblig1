@@ -1,5 +1,6 @@
 import java.util.NoSuchElementException;
 
+public class maks{
 public static int maks(int[] a) {
     if (a.length == 0) {
         throw new NoSuchElementException("Tabellen er tom!");
@@ -42,10 +43,18 @@ public static int ombyttinger(int[]a) {
     return ombytte;
 
 }
+}
 
 /* Denne maks-metoden er dårligere enn den som ble brukt tidligere siden den er mindre effektiv og tar mer
  tid å kunne utføre pga strl på arrayet.
 */
+
+        
+
+
+
+
+
 
 
 
