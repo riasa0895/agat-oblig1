@@ -193,7 +193,6 @@ public static String flett(String... s) {
 
     //gpr gjennom tegnene i alle strenger
     for (int i = 0; i < totalLength; i++) {
-        // Finn den første strengen som har et tegn igjen
         int j = 0;
         while (j < s.length && s[j].isEmpty()) {
             j++;
