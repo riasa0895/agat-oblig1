@@ -33,3 +33,22 @@ public static void delSortering(int[] a) {
     Arrays.sort(a, 0, left);
     Arrays.sort(a, left, a.length);
 }
+
+public static void rotasjon(char[] a) {
+    if (a == null || a.length <= 1) {
+        return; //roterer ikke vis det er null elementer
+
+        //lagrer aller siste elemnt i array
+        char last = a[a.length - 1];
+
+
+        //flytter elemtnene 1 posisjon til høyre
+        System.arraycopy(a, 0, a, 1, a.length - 1);
+
+        //siste element ligger i 1 posisjon
+        a[0] = last;
+    }
+}
+
+
+
