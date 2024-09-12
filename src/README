@@ -1,4 +1,44 @@
 
 StudentID: s385570
 
-BESKRIVELSE AV OBLIG
+BESKRIVELSE AV OBLIG 1:
+
+Oppg.1 )
+
+I denne oppgaven har det blitt funnet den største verdien i et heltallstabell. Her ble det brukt ulike algoritmer/metoder.
+Dette ble brukt for å kunne returnere den største verdien, og ikke posisjonen. Metoden går også gjennom tomme tabeller
+og kaster dermed en unntaksfeil.
+
+Oppg.2 )
+
+Her ble det funnet ut av ulike verdier i et heltalsarray. For at dette skulle bli gjort, ble man først nødt til å
+bekrefte at tabellen var i en stigende rekke. Hvis dette ikke ble gjort, vil da metoden "IllegalStateException" dukke opp.
+Ved bruk av denne metoden fikk vi returnert de ulike tallene i arrayet.
+
+Oppg.3 )
+
+Her var det ikke nødvendig med sortering og det ble derfor heller ikke brukt "IllegalStateException". I denne løsningen
+ser man hvordan man teller ulike antall verdier i et usortert heltallsarray. Ved bruk av denne metoden ser man hvordan
+man også håndterer en annerledes teknikk. Her blir det bestemt ulike verdier uten bruk av hjelpetabeller.
+
+Oppg.4 )
+
+I denne løsninger finner du både; partall og odetall på hver sin side av tabellen. Disse heltallene er også sortert i en
+stigende rekkefølge. Først blir det sjekket om arrayet er tomt. Deretter letes det etter både partall og oddetall. Tilslutt
+sorteres dette i en rekke.
+
+Oppg.5 )
+
+Her kan man se at det blir brukt en metode som roterer alle elementene, hvor alle elementene skulle roteres mot høyre.
+I denne løsningen ble det siste verdien rotert ned til 1. plass. Løsningen sjekker også om det er noen variabler i arrayet.
+Hvis det er null elementer vil ikke arrayet rotere på seg.
+
+Oppg.7 )
+
+Her ble to strenger flettet sammen i strengen som ble vist ved resultat. Under metoden som ble brukt kan man også se vis
+"s" sin streng er større enn "t" så vil det til rest ligge bakerst i resultatet. Det sammen gjelder vis t er større enn s.
+
+Det ble også utført fletting av flere strenger. I løsninger blir det først regnet ut totale lengden av strengene.
+Dermed blir gjennomgått antall interasjoner som trengs for å bruke alle tegn. Etter at alle første tegn er brukt opp ved
+strengene, vil løsninger gå over til andre tegn i tidligere streng, dermed fortsetter det videre. Det vil resultere til
+et sammenflettet streng.
